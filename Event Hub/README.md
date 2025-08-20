@@ -1,1 +1,1 @@
-Make web page using sematic HTML
+Make web page with sematic HTML like header, nav, article
