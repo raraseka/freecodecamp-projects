@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Course Survey Form</h1>
+    <p id="description">Thank you for take this couse. Help us to improve our course!</p>
+  </body>
+  <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+    <label id="number-label">Age</label>
+    <input id="number" type="number" min="0" max="100" placeholder="Enter your age"> <br>
+    <label id="role">Choose your current role?</label> <br>
+    <select id="dropdown">
+      <option value="student">Student</option>
+      <option value="work">Work</option>
+      <option value="prefer-not-to-say">Prefer Not To Say</option>
+      <option value="others">Others</option>
+    </select> <br>
+    <label id="recommed">Whould you like to recommended this course to others?</label> <br>
+    <label for="yes-button">Yes</label>
+    <input id="yes-button" type="radio" name="recommendation" value="yes" >
+    <label for="no-button">No</label>
+    <input id="no-button" type="radio" value="no" name="recommendation"><br>
+    <label id="check">Whould you like to learn to improve your skills?</label>
+    <input id="list" type="checkbox" name="checky" value="machine-learning">
+    <label for="list">Machine Learning</label>
+    <input id="list" type="checkbox" name="checky" value="web-development">
+    <label for="list">Web Development</label>
+
+    <label for="comment">Comment or Suggestion</label>
+    <textarea cols="30" rows="10" name="comment" id="comment"></textarea>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</html>
