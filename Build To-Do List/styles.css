@@ -1,0 +1,59 @@
+body {
+  background: white;
+  
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.todo-list {
+  list-style: none;
+  height: 200px;
+  padding-top: 2px;
+  margin: 50px;
+  padding-bottom:50px;
+  
+}
+
+.todo-list > li {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: lightblue;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.sub-item {
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red; 
+}
+
+a:active {
+  color: orange;
+}
+
+a:focus {
+  outline: 2px solid;
+  outline-offset: 2px;
+
+}
