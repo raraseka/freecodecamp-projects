@@ -1,0 +1,36 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: white;
+  margin: 0 auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+
+section {
+  display: inline-block;
+  margin: 2%;
+  width: 45%;
+  vertical-align: top;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+ul {
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+}
+
+li {
+  margin: 0;
+}
