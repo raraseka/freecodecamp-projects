@@ -1,1 +1,1 @@
-Build a Job Application form with input
+Build a Job Application form with :input, :hover, :focus
