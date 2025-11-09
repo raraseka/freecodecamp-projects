@@ -1,0 +1,37 @@
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.color-box {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin: 30px 9px 5px 18px;
+  
+  
+}
+
+.color1 {
+  background-color: #ff0000;
+}
+
+.color2 {
+  background-color: rgb(255, 165, 0);
+}
+
+.color3 {
+  background-color: yellow;
+}
+
+.color4 {
+  background-color: hsl(120, 50%, 50%);
+}
+
+.color5 {
+  background-color: blue;
+}
