@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(to right, #AEE6F9, #A0EACF);
+}
+
+.form-container {
+  background-color: #EAF8FF;
+  border-radius: 10px;
+  padding: 10px 2px 150px 2px;
+  margin: 13px 95px 13px 95px;
+  width: 67%;
+}
+
+h2 {
+  text-align: center;
+  color: #1A237E;
+}
+
+label {
+  margin: 5px 50px 5px 20px;
+  color: black;
+  padding: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 5px;
+  
+}
+
+label[for="name"] {
+  text-align: center;
+  color: #1A237E;
+}
+
+input[type="text"] {
+  margin-top: 9px;
+}
+
+label[for="email"] {
+  text-align: center;
+  color: #1A237E;
+}
+
+input[type="email"] {
+  margin-top: 9px;
+}
+
+textarea { 
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 2px;
+
+
+}
+
+label[for="message"] {
+  text-align: center;
+  color: #1A237E;
+  
+}
+
+textarea[id="message"] {
+  margin-top: 9px;
+
+}
+
+button {
+  background-color: #008080;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  width: 25%;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  color: #FFF9F0;
+  font-size: 13px;
+
+}
+
+button:hover {
+  background-color: #0D1A66;
+  
+}
