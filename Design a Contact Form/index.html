@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stlyesheet"href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="/submit" method="post">
+            <h2>Contact Us</h2>
+            
+                <label for="name">Name: 
+                    <input id="name" type="text"
+                        name="name" required
+                        placeholder="Enter your name">
+                </label>
+
+                <label for="email">Email: 
+                    <input id="email" type="email"
+                    name="email" required
+                    placeholder="Enter your email">
+                </label>
+
+                <label for="message">Message: 
+                    <textarea id="message" rows="7" cols="30" name="message"
+                        required placeholder="Enter your message..."></textarea>
+                </label>
+            
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
