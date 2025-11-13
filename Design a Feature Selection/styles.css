@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+
+.feature-card-container {
+  margin: 50px 10px 20px 370px;
+  
+  
+}
+
+.feature-card {
+  background-color: #f5f5dc;
+  border-radius: 5px;
+  border: 2px solid orange; 
+  padding: 10px 20px;
+  margin: 10px;
+  width: 25%;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  
+}
+
+label {
+  cursor: pointer;
+  margin: 10px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  border: 2px solid #d2691e;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  vertical-align: left;
+  margin-bottom: 1px;
+  margin-right: 250px;
+  
+  
+}
+
+.feature-card .top-text {
+  font-weight: bold;
+   text-align: center;
+
+}
+
+.feature-card .bottom-text {
+  display: block; 
+  margin-top: 2px;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #800000;
+  border-color: orange;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
+}
