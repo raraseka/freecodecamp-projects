@@ -1,1 +1,1 @@
-Styling using CSS flexbox
+Practice styling using CSS flexbox
