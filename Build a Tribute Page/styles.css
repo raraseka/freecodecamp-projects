@@ -1,0 +1,54 @@
+body {
+  padding: 10px;
+  margin: 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 24px 0 5px 0;
+}
+
+#main {
+  background-color: gray;
+}
+
+figure {
+  background-color: white;
+  
+}
+
+figcaption {
+  text-align: justify;
+  padding: 10px; 
+
+}
+#image {
+  max-width: 100%;
+  margin: 10px;
+  height: 250px;
+  
+}
+
+img {
+  display: block;
+}
+
+article {
+  padding: 20px;
+  margin: 10px;
+}
+
+article p {
+  text-align: justify;
+  
+}
+
+.text-indent {
+  text-indent: 30px;
+}
+
+
+
+#tribute-link {
+  text-decoration: none;
+}
