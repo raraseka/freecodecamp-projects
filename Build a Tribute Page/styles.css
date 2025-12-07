@@ -14,6 +14,7 @@ h1 {
 
 figure {
   background-color: white;
+  padding: 5px;
   
 }
 
@@ -24,8 +25,9 @@ figcaption {
 }
 #image {
   max-width: 100%;
-  margin: 10px;
-  height: 250px;
+  margin: auto;
+  height: auto;
+  padding: auto;
   
 }
 
@@ -46,8 +48,6 @@ article p {
 .text-indent {
   text-indent: 30px;
 }
-
-
 
 #tribute-link {
   text-decoration: none;
