@@ -1,0 +1,119 @@
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th {
+  text-align: center;
+}
+th, td { 
+  padding: 12px;
+  border: 1px solid black;
+}
+
+span {
+  
+  align-items: center;
+  gap: 1px;
+  width: 20px;
+  height: 20px;
+}
+
+tr[class="read"] {
+  background-color: green;
+background-image: linear-gradient(to bottom, lightgreen, mediumseagreen);
+  
+}
+
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to bottom, lightblue, royalblue)
+
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to bottom, lightgray, darkgray);
+
+}
+
+tr[class="to-read"] span[class="status"]
+ {
+   border: 2px solid black;
+   background-image: linear-gradient(to bottom, red, darkred);
+   height: 39px;
+   width: 96px;
+   text-align: center;
+   border-radius: 18px;
+   margin: 10px;
+  padding: 8px; 
+}
+
+tr[class="read"]
+span[class="status"] {
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom, green, darkgreen);
+  height: 39px;
+   width: 96px;
+   text-align: center;
+   border-radius: 18px;
+   margin: 10px;
+  padding: 8px;
+}
+
+tr[class="in-progress"] span[class="status"]
+{
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom, yellow, gold);
+  height: 39px;
+   width: 96px;
+   text-align: center;
+   border-radius: 18px;
+   margin: 10px;
+  padding: 8px;
+}
+
+span[class="status"],
+span[class^="rate"] {
+  height: auto; 
+  width: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 4px;
+  
+}
+
+span[class^="rate"] > span {
+  border: 2px solid black;
+  border-radius: 9px;
+  margin: 2px;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  
+
+}
+
+span[class~="one"] :first-child  {
+  background-image: linear-gradient(lightyellow, yellow);
+}
+
+span[class~="two"] :first-child,
+span[class~="two"]  :nth-child(2) {
+  background-image: linear-gradient(lightyellow, yellow);
+
+}
+
+
+span[class~="three"] span {
+  background-image: linear-gradient(lightyellow, yellow);
+}
