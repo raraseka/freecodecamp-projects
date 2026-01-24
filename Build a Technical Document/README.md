@@ -1,0 +1,32 @@
+Pratice make technical document with focus on media queries
+Build with: HTML and CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
