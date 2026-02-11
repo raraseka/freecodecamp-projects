@@ -2,7 +2,7 @@
 This project was created as part of my freecodecamp practice. It focused on building table layout structure using HTML and CSS.  
 #Features  
 - Table layout
-- Design style using CSS Variables
+- Design style using CSS Variables     
 #Tech Stack
 - HTML
 - CSS
