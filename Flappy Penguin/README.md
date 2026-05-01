@@ -6,6 +6,8 @@ Key features
 - Custom  Styling: use CSS Variables(--penguin-face, --penguin-picorna, --penguin-skin to manage theme/color easy
 - Animation: Utilized @keyframes
 - Motion Interactive: Implements CSS transform to handle rotation and scaling during animation
+
+  
 Tech Used:
 - HTML
 - CSS
