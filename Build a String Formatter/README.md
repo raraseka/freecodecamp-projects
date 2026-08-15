@@ -2,10 +2,10 @@
 ## Build a String Formatter  
 This project is from freeCodeCamp  
 What I learn:  
-- Variable
+- Variable  
   Used to store data value
   
-- console.log()
+- console.log()  
   Used to display output in the console
   
 - trim()  
@@ -20,11 +20,9 @@ What I learn:
 - toUpperCase()
   Used to convert all characters in a string to uppercase
 
-- toLowerCase()
-  
+- toLowerCase()  
   Used to convert all characters in a string to lowercase
 
-- slice()
-  
+- slice()  
   Used to extract a portion of a string
   
