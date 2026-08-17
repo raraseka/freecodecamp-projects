@@ -1,17 +1,17 @@
 # JavaScript  
-## Build a String Formatter  
+## Build a String Transformer  
 This project is from freeCodeCamp  
 What I learn:  
-- replace()
+- replace()  
   Used to replace the first occurrence of a specified value in a string
 
-- replaceAll()
+- replaceAll()  
   Used to replace all occurrences of a specified value in a string
 
-- repeat()
+- repeat()  
     Used to repeat a string a specified number of times
 
-- trimEnd()
+- trimEnd()  
   Used to remove whitespace from the end of a string
   
   
